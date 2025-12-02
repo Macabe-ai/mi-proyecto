@@ -1,0 +1,14 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --colors --runInBand",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "prettier": "^2.8.0"
+  }
+}
